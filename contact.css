@@ -1,0 +1,486 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    max-width:100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin:0 auto;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.logo-tag {
+    display: flex;
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    background:transparent;
+    background: -webkit-linear-gradient(to right, #131313, #131313);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #131313 ,#131313); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 250px;
+    padding: 30px;
+    width: 50%;
+    height: 80px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 50px;
+}
+
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 8rem;
+    width: 10%;
+    font-size: 1.4rem;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #131313;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #131313;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.nav-links:hover {
+    color: #e9e9e9;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #e9e9e9;
+    transition: all 0.2s ease-in-out;
+}
+
+img {
+    padding: 50px;   
+}
+
+.slogan{
+    text-align: center;
+    margin-top: 100px;
+}
+.slogan h4 {
+    font-size: 2rem;
+}
+.slogan p {
+    padding: 10px;
+    
+}
+
+.featuresTag h1 {
+    text-align: center;
+    margin-top: 150px;
+    padding: 20px;
+    font-size: 3rem;
+}
+.featuresTag p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.main {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 533px;
+    /*background-image: url(/img/pic12.jpg);*/
+    background: #ff9472;  /* fallback for old browsers */
+}
+
+.main-card h1 {
+    font-size: 2rem;
+    color: #141414;
+}
+
+.main-card p {
+    padding: 5px;
+    margin-top: 20px;
+    color: #141414;
+}
+
+.second-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 533px;
+    margin-left:600px;
+    margin-top: -533px;
+    /*background-image: url(/img/pic6.jpg);*/
+    background: #ff9472;  /* fallback for old browsers */
+   
+}
+
+.card-content h1 {
+    font-size: 2rem;
+}
+
+.card-content p {
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.third-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 533px;
+    margin-left:1161px;
+    margin-top: -533px;
+    /*background-image: url(/img/pic8.jpg);*/
+    background: #ff9472;  /* fallback for old browsers */
+    
+}
+
+.card h1 {
+    font-size: 2rem;
+    color: #141414;
+}
+
+.card p {
+    padding: 5px;
+    margin-top: 20px;
+    color: #141414;
+}
+.btn {
+    background-color: #141414;
+    border:2px #fff;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    color: #fff;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: all 0.3s ease;
+    background-color: #fff;
+    color: #141414;
+}
+
+button {
+    width: 35%;
+}
+.Go {
+    width: 40px;
+    height: 28px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 15px;
+    background-color: #ff9472;
+    color: #141414;
+    cursor: pointer;
+}
+.Go:hover {
+    background-color: #7c7c7c;
+    color: #fff;
+    transition: 0.2s ease-out;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.search-bar {
+    color: #fff;
+    margin-left: -40px;
+    
+}
+
+.header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   font-size: 2rem;
+   margin-top: 50px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+   padding: 20px;
+    
+}
+.block1 h2 {
+    display: flex;
+    padding: 50px;
+    margin-right: 150px;
+    margin-top: -50px;
+}
+.block2 h2 {
+    display: flex;
+    padding: 50px;
+    margin-left: 50px;
+}
+.block3 h2 {
+    display: flex;
+    padding: 50px;
+    margin-left: 150px;
+}
+.block1 p {
+    display: flex;
+    padding: 5px;
+    margin-right: 150px;
+}
+.block2 p {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.block3 p {
+    display: flex;
+    padding: 5px;
+    margin-left: 150px;
+}
+
+.img13 {
+   margin-left: 80px;
+}
+.img14 {
+   margin-left: 80px;
+}
+.img15 {
+   margin-left: 200px;
+}
+
+
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    background:#fff;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size:36px;
+    font-weight: 500;
+    color: #131313; 
+}
+.contact .content p {
+    font-weight: 300;
+    color: #131313; 
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+}
+
+.container .contactInfo {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon ul li { 
+    min-width: 60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    font-size: 22px;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+.container .contactInfo .box .text{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+    list-style: none;
+} 
+.container .contactInfo .box .text  ul li {
+    font-weight: 500;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background-color: #ff9472;
+}
+.contactForm h2 {
+    font-size:2rem;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox {
+    position: relative;
+    width:100% ;
+    margin-top: 10px;
+}
+.contactForm .inputBox input{
+   width: 100%;
+   padding: 5px 0;
+   font-size: 16px;
+   margin: 10px 0;
+   border: none;
+   border-bottom: 2px solid #333 ;
+   outline: none; 
+}
+.contactForm .inputBox textarea{
+   width: 100%;
+   padding: 5px 0;
+   font-size: 16px;
+   margin: 10px 0;
+   border: none;
+   border-bottom: 2px solid #333 ;
+   outline: none; 
+   resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    /* pointer-event none changes the pointer to mouse cursor to from an arrow to a line / I shaped pointer */
+    transition: 0.5s ease;
+    color: #666;
+}
+/* we use the focus property to zero in on an element we would like to animate
+This is why we call the transform: TranslateY() "moves on the y axis" property because its moving / is an animated part of our website (like the drop down menu)
+we set this focus property to 12px so the text gets smaller when we do click the text field  */
+.contactForm .inputBox input:focus ~ span {
+    color: #1CB5E0;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+/* using the valid property will keep the text in the span tag elevated on the Y axis after the user types into the text box */
+.contactForm .inputBox input:valid ~ span {
+    color: #1CB5E0;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox textarea:focus ~ span {
+    color: #1CB5E0;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+/* We do the same thing for the text area */
+.contactForm .inputBox textarea:valid ~ span {
+    color: #1CB5E0;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+/* targets the submit input button by calling (input [type="submit"]) */ 
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #141414;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px auto;
+    font-size: 18px;
+}
+
+.inputBox input[value="Send"]:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    color: #131313;
+}
+
+@media (max-width: 900px) {
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo, .contactForm {
+       width: 50%;
+    }
+}
+
+.websiteRights p {
+    color: #131313;
+    text-align: center;
+    background-color: #fff;
+}
